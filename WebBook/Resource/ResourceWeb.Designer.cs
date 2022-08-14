@@ -61,11 +61,101 @@ namespace WebBook.Resource {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à تفعيل المستخدم.
+        /// </summary>
+        public static string lbActiveUser {
+            get {
+                return ResourceManager.GetString("lbActiveUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à حذف.
+        /// </summary>
+        public static string lbbtnDelete {
+            get {
+                return ResourceManager.GetString("lbbtnDelete", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à تعديل.
+        /// </summary>
+        public static string lbbtnEdit {
+            get {
+                return ResourceManager.GetString("lbbtnEdit", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à حفظ.
+        /// </summary>
+        public static string lbbtnSave {
+            get {
+                return ResourceManager.GetString("lbbtnSave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à اضف مجموعة جديدة.
+        /// </summary>
+        public static string lbbtnSaveNewRole {
+            get {
+                return ResourceManager.GetString("lbbtnSaveNewRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à اضافة مستخدم جديد.
+        /// </summary>
+        public static string lbbtnSaveNewUser {
+            get {
+                return ResourceManager.GetString("lbbtnSaveNewUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à اعد كلمة المرور.
+        /// </summary>
+        public static string lbComparePassword {
+            get {
+                return ResourceManager.GetString("lbComparePassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à البريد الالكتروني.
+        /// </summary>
+        public static string lbEmailUser {
+            get {
+                return ResourceManager.GetString("lbEmailUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à الاحداث.
+        /// </summary>
+        public static string lbEvents {
+            get {
+                return ResourceManager.GetString("lbEvents", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à الصفحة الرئيسية.
         /// </summary>
         public static string lbHomePage {
             get {
                 return ResourceManager.GetString("lbHomePage", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à صورة المستخدم.
+        /// </summary>
+        public static string lbImageUser {
+            get {
+                return ResourceManager.GetString("lbImageUser", resourceCulture);
             }
         }
         
@@ -79,11 +169,146 @@ namespace WebBook.Resource {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à اسم المجموعة.
+        /// </summary>
+        public static string lbNameRole {
+            get {
+                return ResourceManager.GetString("lbNameRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à اسم المستخدم.
+        /// </summary>
+        public static string lbNameUser {
+            get {
+                return ResourceManager.GetString("lbNameUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à لم يتم الحفظ.
+        /// </summary>
+        public static string lbNotSaved {
+            get {
+                return ResourceManager.GetString("lbNotSaved", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à خطأ لم يتم الحفظ.
+        /// </summary>
+        public static string lbNotSavedMsgUser {
+            get {
+                return ResourceManager.GetString("lbNotSavedMsgUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à خطأ لم يتم حفظ المستخدم.
+        /// </summary>
+        public static string lbNotSavedMsgUserRole {
+            get {
+                return ResourceManager.GetString("lbNotSavedMsgUserRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à لم يتم التحيين.
+        /// </summary>
+        public static string lbNotUpdate {
+            get {
+                return ResourceManager.GetString("lbNotUpdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à خطأ لم يتم تحيين مجموعة المستخدم.
+        /// </summary>
+        public static string lbNotUpdateMsgRole {
+            get {
+                return ResourceManager.GetString("lbNotUpdateMsgRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à خطأ لم يتم تحيين مجموعة المستخدم.
+        /// </summary>
+        public static string lbNotUpdateMsgUserRole {
+            get {
+                return ResourceManager.GetString("lbNotUpdateMsgUserRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à كلمة المرور.
+        /// </summary>
+        public static string lbPassword {
+            get {
+                return ResourceManager.GetString("lbPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à تسجيل مجموعة مستخدمين.
         /// </summary>
         public static string lbRoleUser {
             get {
                 return ResourceManager.GetString("lbRoleUser", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à تم حفظ المستخدم الجديد.
+        /// </summary>
+        public static string lbSave {
+            get {
+                return ResourceManager.GetString("lbSave", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à اختر مجموعة مستخدم.
+        /// </summary>
+        public static string lbSelectUserRole {
+            get {
+                return ResourceManager.GetString("lbSelectUserRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à تم تحيين.
+        /// </summary>
+        public static string lbUpdate {
+            get {
+                return ResourceManager.GetString("lbUpdate", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à تم نحيين مجموعة المستخدم بنجاح.
+        /// </summary>
+        public static string lbUpdateMsgRole {
+            get {
+                return ResourceManager.GetString("lbUpdateMsgRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à تم تحيين بنجاح.
+        /// </summary>
+        public static string lbUpdateMsgUserRole {
+            get {
+                return ResourceManager.GetString("lbUpdateMsgUserRole", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à المستخدمين الحاليين.
+        /// </summary>
+        public static string lbUser {
+            get {
+                return ResourceManager.GetString("lbUser", resourceCulture);
             }
         }
     }

@@ -117,13 +117,88 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="lbActiveUser" xml:space="preserve">
+    <value>تفعيل المستخدم</value>
+  </data>
+  <data name="lbbtnDelete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="lbbtnEdit" xml:space="preserve">
+    <value>تعديل</value>
+  </data>
+  <data name="lbbtnSave" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="lbbtnSaveNewRole" xml:space="preserve">
+    <value>اضف مجموعة جديدة</value>
+  </data>
+  <data name="lbbtnSaveNewUser" xml:space="preserve">
+    <value>اضافة مستخدم جديد</value>
+  </data>
+  <data name="lbComparePassword" xml:space="preserve">
+    <value>اعد كلمة المرور</value>
+  </data>
+  <data name="lbEmailUser" xml:space="preserve">
+    <value>البريد الالكتروني</value>
+  </data>
+  <data name="lbEvents" xml:space="preserve">
+    <value>الاحداث</value>
+  </data>
   <data name="lbHomePage" xml:space="preserve">
     <value>الصفحة الرئيسية</value>
+  </data>
+  <data name="lbImageUser" xml:space="preserve">
+    <value>صورة المستخدم</value>
   </data>
   <data name="lbManageBook" xml:space="preserve">
     <value>ادارة الكتب</value>
   </data>
+  <data name="lbNameRole" xml:space="preserve">
+    <value>اسم المجموعة</value>
+  </data>
+  <data name="lbNameUser" xml:space="preserve">
+    <value>اسم المستخدم</value>
+  </data>
+  <data name="lbNotSaved" xml:space="preserve">
+    <value>لم يتم الحفظ</value>
+  </data>
+  <data name="lbNotSavedMsgUser" xml:space="preserve">
+    <value>خطأ لم يتم الحفظ</value>
+  </data>
+  <data name="lbNotSavedMsgUserRole" xml:space="preserve">
+    <value>خطأ لم يتم حفظ المستخدم</value>
+  </data>
+  <data name="lbNotUpdate" xml:space="preserve">
+    <value>لم يتم التحيين</value>
+  </data>
+  <data name="lbNotUpdateMsgRole" xml:space="preserve">
+    <value>خطأ لم يتم تحيين مجموعة المستخدم</value>
+  </data>
+  <data name="lbNotUpdateMsgUserRole" xml:space="preserve">
+    <value>خطأ لم يتم تحيين مجموعة المستخدم</value>
+  </data>
+  <data name="lbPassword" xml:space="preserve">
+    <value>كلمة المرور</value>
+  </data>
   <data name="lbRoleUser" xml:space="preserve">
     <value>تسجيل مجموعة مستخدمين</value>
+  </data>
+  <data name="lbSave" xml:space="preserve">
+    <value>تم حفظ المستخدم الجديد</value>
+  </data>
+  <data name="lbSelectUserRole" xml:space="preserve">
+    <value>اختر مجموعة مستخدم</value>
+  </data>
+  <data name="lbUpdate" xml:space="preserve">
+    <value>تم تحيين</value>
+  </data>
+  <data name="lbUpdateMsgRole" xml:space="preserve">
+    <value>تم نحيين مجموعة المستخدم بنجاح</value>
+  </data>
+  <data name="lbUpdateMsgUserRole" xml:space="preserve">
+    <value>تم تحيين بنجاح</value>
+  </data>
+  <data name="lbUser" xml:space="preserve">
+    <value>المستخدمين الحاليين</value>
   </data>
 </root>

@@ -34,6 +34,12 @@ namespace Infrastructure.Data
             builder.Entity<LogSubCategory>().Property(w => w.Id).HasDefaultValueSql("NEWID()");
             builder.Entity<Book>().Property(w => w.Id).HasDefaultValueSql("NEWID()");
             builder.Entity<LogBook>().Property(w => w.Id).HasDefaultValueSql("NEWID()");
+            //builder.Entity<VwUser>().HasNoKey().ToView("VwUsers");
+            builder.Entity<VwUser>(entity =>
+            {
+                entity.HasNoKey();
+                entity.ToView("VwUsers");
+            });
         }
         public DbSet<Category> Categories { get; set; }
         public DbSet<LogCategory> LogCategories { get; set; }
@@ -41,5 +47,6 @@ namespace Infrastructure.Data
         public DbSet<LogSubCategory> LogSubCategories { get; set; }
         public DbSet<Book> Books { get; set; }
         public DbSet<LogBook> LogBooks { get; set; }
+        public DbSet<VwUser> VwUsers { get; set; }
     }
 }

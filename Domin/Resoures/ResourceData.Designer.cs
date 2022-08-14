@@ -88,6 +88,24 @@ namespace Domin.Resoures {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à اعد كتابة كلمة العبور.
+        /// </summary>
+        public static string ComparePassword {
+            get {
+                return ResourceManager.GetString("ComparePassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à كلمة العبور غير متطابقة.
+        /// </summary>
+        public static string ComparePasswordError {
+            get {
+                return ResourceManager.GetString("ComparePasswordError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à يجب الا يزيد عدد العروف الكلمة عن عشرون حرف.
         /// </summary>
         public static string MaxLength {
@@ -102,6 +120,60 @@ namespace Domin.Resoures {
         public static string MinLength {
             get {
                 return ResourceManager.GetString("MinLength", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à يجب ان لا يقل عدد الحروف عن خمسة.
+        /// </summary>
+        public static string MinLengthPassword {
+            get {
+                return ResourceManager.GetString("MinLengthPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à يجب ادخال كلمة العبور.
+        /// </summary>
+        public static string Password {
+            get {
+                return ResourceManager.GetString("Password", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à يجب ادخال البريد الالكتروني.
+        /// </summary>
+        public static string RegisterEmail {
+            get {
+                return ResourceManager.GetString("RegisterEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à يجب ادخال البريد الالكتروني بشكل صحيح.
+        /// </summary>
+        public static string RegisterEmailError {
+            get {
+                return ResourceManager.GetString("RegisterEmailError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à يجب ادخال اسم المستخدم.
+        /// </summary>
+        public static string RegisterName {
+            get {
+                return ResourceManager.GetString("RegisterName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à يجب ادخال اسم المجموعة.
+        /// </summary>
+        public static string RoleName {
+            get {
+                return ResourceManager.GetString("RoleName", resourceCulture);
             }
         }
         
